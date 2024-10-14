@@ -21,7 +21,7 @@ public class CalculatorController {
 
     @GetMapping("/health")
     public String health() {
-        return "I'm OK!!@!!123!!";
+        return "I'm OK!";
     }
 
     @GetMapping("/plus")
